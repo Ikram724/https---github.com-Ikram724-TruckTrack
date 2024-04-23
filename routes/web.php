@@ -26,3 +26,12 @@ Route::get('/contact', function () {
     return view('contact');
 });
 Route::post('/formdata', [FormController::class, 'index']);
+Route::get('/pricing', function () {
+    return view('pricing');
+});
+Route::get('/form', function () {
+    return view('form');
+});
+Route::get('/working', function () {
+    return view('working');
+});

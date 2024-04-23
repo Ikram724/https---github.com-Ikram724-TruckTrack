@@ -2,7 +2,7 @@
 @section('content')
 <div class="page1">
     <div class="p1-left-text">
-        <h2>We are 360 Dispatch</h2>
+        <h2>We are Reliance Dispatch Services</h2>
         <h1> <b>Your Trusted <br> Partner for <br> Efficient Truck <br> Dispatching</b></h1>
         <a href=""><button id="sb1"> Get Started </button></a>
 
@@ -126,4 +126,7 @@
     </div>
 
 </div>
+<!--footer-->
+
+
 @endsection()
