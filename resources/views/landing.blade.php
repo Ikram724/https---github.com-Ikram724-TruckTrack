@@ -1,6 +1,10 @@
 @extends('main')
 @section('content')
+<div class="panel22">
+    <img src="{{asset('images/panel.png')}}" alt="">
+</div>
 <div class="page1">
+
     <div class="p1-left-text">
         <h2>We are Reliance Dispatch Services</h2>
         <h1> <b>Your Trusted <br> Partner for <br> Efficient Truck <br> Dispatching</b></h1>
