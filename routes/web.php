@@ -25,7 +25,7 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
-Route::post('/formdata', [FormController::class, 'index']);
+Route::post('/form', [FormController::class, 'index']);
 Route::get('/pricing', function () {
     return view('pricing');
 });

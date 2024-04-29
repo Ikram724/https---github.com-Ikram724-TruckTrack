@@ -286,3 +286,22 @@ function counter3() {
 }
 
 counter3();
+document.getElementById('setupForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  let isFormValid = true;
+
+  const requiredInputs = document.querySelectorAll('#setupForm input[required]');
+  requiredInputs.forEach(input => {
+      const errorSpan = document.getElementById(input.id + '-error');
+      if (!input.value.trim()) {
+          errorSpan.classList.remove('hidden');
+          isFormValid = false;
+      } else {
+          errorSpan.classList.add('hidden');
+      }
+  });
+
+  if (isFormValid) {
+      this.submit();  // Proceed with form submission
+  }
+});
